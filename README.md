@@ -4,7 +4,7 @@
 
 **Raw data for the project** was downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-**Stepwise process followed to arrive at a tidy data:**
+**The script run_analysis.R performs the following process to clean up the data and create tidy data set:**
 1. Read all the files into individual data tables.
 2. Merged the training and the test sets to create one data set.
 3. Extracted only the measurements on the mean and standard deviation for each measurement.
